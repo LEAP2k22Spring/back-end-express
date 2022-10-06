@@ -9,4 +9,4 @@ exports.getUsers = (request, response) => {
 
 exports.createUser = (request, response) => {
   response.status(200).json({ users: users })
-}``
+}
